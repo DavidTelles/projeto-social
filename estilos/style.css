@@ -33,6 +33,23 @@ section#tell{
     background-repeat: no-repeat;
 }
 
+section#rede img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px black;
+    filter: grayscale(100%);
+}
+section#rede img:hover{
+    transition: .5s;
+    filter: grayscale(0%);
+    width: 55px;
+}
+
+section#rede{
+    text-align: right;
+}
+
 #tela{
     position: relative;
     top: 80px;
